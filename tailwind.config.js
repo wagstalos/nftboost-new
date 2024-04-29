@@ -23,16 +23,19 @@ module.exports = {
       },
       maxWidth: {
         grid: "77.5rem",
-        'card-nft': '17.4rem',
+        "card-nft": "17.4rem",
+        "card-collector": "37rem",
+        "logo-size-mb": "10rem",
+        "nav-header":'48.3rem',
       },
-      height:{
-        'area-image-nft': '14.7rem'
+      height: {
+        "area-image-nft": "14.7rem",
       },
       colors: {
         "blue-primary": "#1D4FFE",
         "green-primary": "#4BCE97",
         "gray-border-card": "#131317",
-        "gray-area-favorite":"#05030A",
+        "gray-area-favorite": "#05030A",
 
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -87,6 +90,13 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+    },
+    screens: {
+      tablet: "640px",
+
+      laptop: "1024px",
+
+      desktop: "1280px",
     },
   },
   plugins: [require("tailwindcss-animate")],
