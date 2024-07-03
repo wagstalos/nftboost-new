@@ -21,15 +21,22 @@ module.exports = {
         inter: ["var(--font-inter)"],
         poppins: ["var(--font-poppins)"],
       },
+      width: {
+        "area-cards-mobile": "43.75rem",
+      },
       maxWidth: {
         grid: "77.5rem",
         "card-nft": "17.4rem",
         "card-collector": "37rem",
         "logo-size-mb": "10rem",
-        "nav-header":'48.3rem',
+        "nav-header": "48.3rem",
+        "left-cont-footer": "20rem",
+        "content-desc-hero": "41.1rem",
       },
       height: {
         "area-image-nft": "14.7rem",
+        "area-cards-mobile": "15.3rem",
+        "area-card-desk": "26.6rem",
       },
       colors: {
         "blue-primary": "#1D4FFE",
@@ -89,6 +96,9 @@ module.exports = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      backgroundImage: {
+        "hero-pattern": 'url("../assets/bg-hero.svg")',
       },
     },
     screens: {
