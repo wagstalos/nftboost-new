@@ -3,7 +3,7 @@ import CardsRight from "@/assets/cards-right.png";
 import Image from "next/image";
 export function CardsHero() {
   return (
-    <div className="relative w-area-cards-mobile desktop:w-full h-area-card-desk desktop:area-card-desk mt-12 desktop:mt-20">
+    <div className="relative w-area-cards-mobile desktop:w-full h-area-cards-mobile desktop:h-area-card-desk mt-12 desktop:mt-20">
       <Image
         src={CardsLeft}
         alt="CardsLeft"

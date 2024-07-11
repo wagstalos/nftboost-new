@@ -15,6 +15,7 @@ import Thumb09 from "@/assets/nfts/09.jpg";
 import Thumb10 from "@/assets/nfts/10.jpg";
 import Thumb11 from "@/assets/nfts/11.jpg";
 import Thumb12 from "@/assets/nfts/12.jpg";
+import { SectionCollectors } from "@/components/section-collections";
 
 const featureCollections = [
   {
@@ -185,6 +186,10 @@ export default function Home() {
         title="Destaque do Mês"
         data={featuredMounth}
       />
+
+      <hr className="border-t border-white border-opacity-20 max-w-grid mx-auto" />
+
+      <SectionCollectors />
 
       <hr className="border-t border-white border-opacity-20 max-w-grid mx-auto" />
       <SectionCarrousel
