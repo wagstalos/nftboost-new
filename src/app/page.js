@@ -16,6 +16,7 @@ import Thumb10 from "@/assets/nfts/10.jpg";
 import Thumb11 from "@/assets/nfts/11.jpg";
 import Thumb12 from "@/assets/nfts/12.jpg";
 import { SectionCollectors } from "@/components/section-collections";
+import { SectionBanner } from "@/components/secction-banner";
 
 const featureCollections = [
   {
@@ -197,6 +198,8 @@ export default function Home() {
         title="Tendência"
         data={tendencies}
       />
+
+      <SectionBanner />
     </>
   );
 }

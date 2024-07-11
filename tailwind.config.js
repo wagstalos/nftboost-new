@@ -37,6 +37,7 @@ module.exports = {
         "area-image-nft": "14.7rem",
         "area-cards-mobile": "15.3rem",
         "area-card-desk": "26.6rem",
+        "area-banner": "29.5rem",
       },
       colors: {
         "blue-primary": "#1D4FFE",
@@ -100,6 +101,7 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern": 'url("../assets/bg-hero.svg")',
+        banner: 'url("../assets/bg-banner.svg")',
       },
     },
     screens: {
