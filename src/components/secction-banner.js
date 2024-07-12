@@ -6,7 +6,7 @@ import AppleStore from "@/assets/apple.svg";
 
 export function SectionBanner() {
   return (
-    <section id="Download">
+    <section id="Download" className="pt-10">
       <ContainerGrid>
         <div
           className="w-full h-auto laptop:h-area-banner bg-banner bg-no-repeat 

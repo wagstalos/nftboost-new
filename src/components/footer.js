@@ -17,7 +17,7 @@ const footerNav = [
 
 export function Footer() {
   return (
-    <footer className="py-10 laptop:pt-32 laptop:pb-14">
+    <footer className="py-28 laptop:pt-32 laptop:pb-14">
       <ContainerGrid className="flex flex-col laptop:flex-row justify-between gap-10">
         <div className="text-left max-w-full laptop:max-w-left-cont-footer">
           <Image src={Logo} alt="logo" />
