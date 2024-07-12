@@ -20,6 +20,7 @@ export function CardCollectors({ position, image, name, value_btc, percent }) {
               <Image
                 src={image}
                 alt="ImgNFT"
+                loading="lazy"
                 className="w-full h-full object-cover"
               />
             </div>

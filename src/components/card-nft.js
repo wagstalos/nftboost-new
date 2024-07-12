@@ -5,7 +5,7 @@ import IconVerify from "@/assets/icon-verify.svg";
 import IconETH from "@/assets/icon-eth.svg";
 import IconClock from "@/assets/icon-clock.svg";
 
-export function CardNFT({thumbnail, name, value, value_brl }) {
+export function CardNFT({ thumbnail, name, value, value_brl }) {
   return (
     <div className="w-full max-w-card-nft overflow-hidden rounded-2xl border border-gray-border-card bg-gray-area-favorite">
       <div className="relative w-full h-area-image-nft overflow-hidden">
@@ -27,7 +27,7 @@ export function CardNFT({thumbnail, name, value, value_brl }) {
 
       <div className="w-full p-4">
         <h4 className="flex items-center gap-1 text-xs mb-1">
-          Cartoon Collection 
+          Cartoon Collection
           <Image src={IconVerify} alt="Imagen IconVerify" />
         </h4>
 
@@ -43,7 +43,9 @@ export function CardNFT({thumbnail, name, value, value_brl }) {
               {value} BTC
             </h3>
           </div>
-          <h5 className="relative bottom-1 text-xs font-medium ">R$ {value_brl}</h5>
+          <h5 className="relative bottom-1 text-xs font-medium ">
+            R$ {value_brl}
+          </h5>
         </div>
 
         <button

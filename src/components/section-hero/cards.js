@@ -7,6 +7,7 @@ export function CardsHero() {
       <Image
         src={CardsLeft}
         alt="CardsLeft"
+        quality={70}
         className="absolute top-0 left-8 desktop:left-0 w-1/2 desktop:w-auto z-10"
       />
       <Image

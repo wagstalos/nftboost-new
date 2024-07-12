@@ -1,5 +1,7 @@
 import { SectionHero } from "@/components/section-hero";
 import { SectionCarrousel } from "@/components/section-carrousel";
+import { SectionCollectors } from "@/components/section-collections";
+import { SectionBanner } from "@/components/secction-banner";
 
 import Thumb01 from "@/assets/nfts/01.jpg";
 import Thumb02 from "@/assets/nfts/02.jpg";
@@ -15,8 +17,7 @@ import Thumb09 from "@/assets/nfts/09.jpg";
 import Thumb10 from "@/assets/nfts/10.jpg";
 import Thumb11 from "@/assets/nfts/11.jpg";
 import Thumb12 from "@/assets/nfts/12.jpg";
-import { SectionCollectors } from "@/components/section-collections";
-import { SectionBanner } from "@/components/secction-banner";
+import { SectionQuestions } from "@/components/section-questions";
 
 const featureCollections = [
   {
@@ -200,6 +201,8 @@ export default function Home() {
       />
 
       <SectionBanner />
+
+      <SectionQuestions />
     </>
   );
 }
