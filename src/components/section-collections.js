@@ -66,7 +66,7 @@ const collectrs = [
 ];
 export function SectionCollectors() {
   return (
-    <section className="py-10 desktop:py-28">
+    <section className="py-10 desktop:py-28" id="Rank">
       <ContainerGrid>
         <TitleSection
           subtitle="Colecionadores"

@@ -38,7 +38,7 @@ const questions = [
 
 export function SectionQuestions() {
   return (
-    <section className="pt-10 desktop:pt-28">
+    <section className="pt-10 desktop:pt-28" id="FAQ">
       <ContainerGrid>
         <TitleSection
           subtitle="Desvendando os Mistérios dos NFTs"
