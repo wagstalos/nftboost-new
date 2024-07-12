@@ -7,7 +7,7 @@ export function CardCollectors({ position, image, name, value_btc, percent }) {
   return (
     <section
       className="bg-white bg-opacity-[0.05] py-4 px-6 
-    flex items-center justify-between rounded-full border border-white border-opacity-20 w-full max-w-card-collector"
+    flex items-center justify-between rounded desktop:rounded-full border border-white border-opacity-20 w-full max-w-card-collector"
     >
       <div className="flex items-center gap-4 desktop:gap-6">
         <strong className="font-semibold">{position}</strong>
